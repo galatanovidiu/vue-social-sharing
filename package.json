@@ -1,13 +1,13 @@
 {
-  "name": "vue-social-sharing",
-  "description": "A Vue.js component for sharing links to social networks",
+  "name": "vue-social-sharing-by-rogio",
+  "description": "A Vue.js component for sharing links to social networks. Fork of https://github.com/nicolasbeauvais/vue-social-sharing",
   "version": "2.4.6",
   "author": {
-    "name": "nicolasbeauvais",
-    "email": "nicolasbeauvais1@gmail.com"
+    "name": "galatanovidiu",
+    "email": "galatanovidiu@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/nicolasbeauvais/vue-social-sharing/issues"
+    "url": "https://github.com/galatanovidiu/vue-social-sharing"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

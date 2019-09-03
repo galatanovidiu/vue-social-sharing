@@ -178,7 +178,8 @@ export default {
         .replace(/@quote/g, encodeURIComponent(this.quote))
         .replace(/@hashtags/g, this.generateHashtags(network, this.hashtags))
         .replace(/@media/g, this.media)
-        .replace(/@twitteruser/g, this.twitterUser ? '&via=' + this.twitterUser : '');
+        .replace(/@twitteruser/g, this.twitterUser ? '&via=' + this.twitterUser : '')
+        .replace(/@twittertitle/g, this.twitterTitle ? encodeURIComponent(this.twitterTitle) : encodeURIComponent(this.title));
     },
     /**
      * Encode hashtags for the specified social network.

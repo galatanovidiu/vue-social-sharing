@@ -1,6 +1,6 @@
 /*!
  * vue-social-sharing v2.4.6 
- * (c) 2019 nicolasbeauvais
+ * (c) 2019 galatanovidiu
  * Released under the MIT License.
  */
 'use strict';
@@ -60,7 +60,7 @@ var pinterest = {"sharer":"https://pinterest.com/pin/create/button/?url=@url&med
 var reddit = {"sharer":"https://www.reddit.com/submit?url=@url&title=@title","type":"popup"};
 var skype = {"sharer":"https://web.skype.com/share?url=@description%0D%0A@url","type":"popup"};
 var telegram = {"sharer":"https://t.me/share/url?url=@url&text=@description","type":"popup"};
-var twitter = {"sharer":"https://twitter.com/intent/tweet?text=@title&url=@url&hashtags=@hashtags@twitteruser","type":"popup"};
+var twitter = {"sharer":"https://twitter.com/intent/tweet?text=@twittertitle&url=@url&hashtags=@hashtags@twitteruser","type":"popup"};
 var viber = {"sharer":"viber://forward?text=@url @description","type":"direct"};
 var vk = {"sharer":"https://vk.com/share.php?url=@url&title=@title&description=@description&image=@media&noparse=true","type":"popup"};
 var weibo = {"sharer":"http://service.weibo.com/share/share.php?url=@url&title=@title","type":"popup"};
@@ -259,7 +259,8 @@ var SocialSharing = {
         .replace(/@quote/g, encodeURIComponent(this.quote))
         .replace(/@hashtags/g, this.generateHashtags(network, this.hashtags))
         .replace(/@media/g, this.media)
-        .replace(/@twitteruser/g, this.twitterUser ? '&via=' + this.twitterUser : '');
+        .replace(/@twitteruser/g, this.twitterUser ? '&via=' + this.twitterUser : '')
+        .replace(/@twittertitle/g, this.twitterTitle ? encodeURIComponent(this.twitterTitle) : encodeURIComponent(this.title));
     },
     /**
      * Encode hashtags for the specified social network.
