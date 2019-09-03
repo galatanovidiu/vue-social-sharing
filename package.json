@@ -1,7 +1,7 @@
 {
   "name": "vue-social-sharing-by-rogio",
   "description": "A Vue.js component for sharing links to social networks. Fork of https://github.com/nicolasbeauvais/vue-social-sharing",
-  "version": "2.4.10",
+  "version": "2.4.11",
   "author": {
     "name": "galatanovidiu",
     "email": "galatanovidiu@gmail.com"
@@ -57,9 +57,9 @@
     "rollup-plugin-json": "^2.1.0"
   },
   "files": [
-    "dist/vue-social-sharing.js",
-    "dist/vue-social-sharing.min.js",
-    "dist/vue-social-sharing.common.js",
+    "dist/vue-social-sharing-by-rogio.js",
+    "dist/vue-social-sharing-by-rogio.min.js",
+    "dist/vue-social-sharing-by-rogio.common.js",
     "src"
   ],
   "homepage": "https://github.com/galatanovidiu/vue-social-sharing#readme",
@@ -72,13 +72,13 @@
     "share"
   ],
   "license": "MIT",
-  "main": "dist/vue-social-sharing.common.js",
+  "main": "dist/vue-social-sharing-by-rogio.common.js",
   "engines": {
     "node": ">= 6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/galatanovidiu/vue-social-sharing.git"
+    "url": "git+https://github.com/galatanovidiu/vue-social-sharing-by-rogio.git"
   },
   "scripts": {
     "build": "node config/build.js",

@@ -1,5 +1,5 @@
 /*!
- * vue-social-sharing-by-rogio v2.4.10 
+ * vue-social-sharing-by-rogio v2.4.11 
  * (c) 2019 galatanovidiu
  * Released under the MIT License.
  */
@@ -401,7 +401,7 @@ var SocialSharing = {
   }
 };
 
-SocialSharing.version = '2.4.10';
+SocialSharing.version = '2.4.11';
 
 SocialSharing.install = function (Vue) {
   Vue.component('social-sharing', SocialSharing);
