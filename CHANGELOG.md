@@ -1,5 +1,5 @@
-<a name="2.4.9"></a>
-# [2.4.9](https://github.com/nicolasbeauvais/vue-social-sharing/compare/2.4.5...2.4.9) (2019-08-11)
+<a name="2.4.10"></a>
+# [2.4.10](https://github.com/nicolasbeauvais/vue-social-sharing/compare/2.4.5...2.4.10) (2019-08-11)
 - Fix IOS Twitter sharing with empty hashtags, again
 
 <a name="2.4.5"></a>

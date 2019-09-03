@@ -1,5 +1,5 @@
 /*!
- * vue-social-sharing-by-rogio v2.4.9
+ * vue-social-sharing-by-rogio v2.4.10 
  * (c) 2019 galatanovidiu
  * Released under the MIT License.
  */
@@ -261,7 +261,7 @@ var SocialSharing = {
         url = url.replace('&hashtags=@hashtags', '');
       }
 
-      console.log('SS', this);
+      console.info('SS this.twitterUser', this.twitterUser);
 
       return url
         .replace(/@url/g, encodeURIComponent(this.url))
@@ -401,7 +401,7 @@ var SocialSharing = {
   }
 };
 
-SocialSharing.version = '2.4.9';
+SocialSharing.version = '2.4.10';
 
 SocialSharing.install = function (Vue) {
   Vue.component('social-sharing', SocialSharing);
