@@ -1,7 +1,7 @@
 {
   "name": "vue-social-sharing-by-rogio",
   "description": "A Vue.js component for sharing links to social networks. Fork of https://github.com/nicolasbeauvais/vue-social-sharing",
-  "version": "2.4.6",
+  "version": "2.4.9",
   "author": {
     "name": "galatanovidiu",
     "email": "galatanovidiu@gmail.com"
